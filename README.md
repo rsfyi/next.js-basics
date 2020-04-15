@@ -9,3 +9,5 @@ Getting started with Next.js
    3. "start": "next start"
 
 `Note - If you create any directory inside pages folder - you will get route added to that folder`
+
+git rm -r --cached .next - remove cached file from git

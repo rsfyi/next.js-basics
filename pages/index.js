@@ -1,9 +1,11 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+
+import { MainLayout } from '../components/layouts/main-layout';
 
 const Home = () => (
-  <Fragment>
+  <MainLayout>
     <h1>Welcome to my pages guys</h1>
-  </Fragment>
+  </MainLayout>
 );
 
 export default Home;
