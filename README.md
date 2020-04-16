@@ -21,3 +21,5 @@ Supports
    ```
 3. Adding external styled sheet file using Head component from next.js
 4. Add public folder and add css file
+5. Add express route for dynamic routes
+6. Adding withRouter to route access elements
