@@ -23,3 +23,4 @@ Supports
 4. Add public folder and add css file
 5. Add express route for dynamic routes
 6. Adding withRouter to route access elements
+7. Add file \_app.js
