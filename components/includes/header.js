@@ -10,23 +10,31 @@ import Link from 'next/link';
 
 export const Header = () => (
   <>
-    <h1>rsdoc.dev</h1>
-    <nav>
-      <Link href='/'>
-        <a>Home</a>
-      </Link>{' '}
-      -
-      <Link href='/contact'>
-        <a>Contact</a>
-      </Link>{' '}
-      -
-      <Link href='/about'>
-        <a>About</a>
-      </Link>{' '}
-      -
-      <Link href='/users'>
-        <a>Users</a>
-      </Link>
-    </nav>
+    <header>
+      <div className='container'>
+        <nav className='navbar navbar-expand-lg navbar-light'>
+          <Link href='/'>
+            <a className='navbar-brand'>rsdoc.dev</a>
+          </Link>
+
+          <div className='collapse navbar-collapse'>
+            <div className='navbar-nav'>
+              <Link href='/'>
+                <a className='nav-item nav-link'>Home</a>
+              </Link>
+              <Link href='/contact'>
+                <a className='nav-item nav-link'>Contact</a>
+              </Link>
+              <Link href='/about'>
+                <a className='nav-item nav-link'>About</a>
+              </Link>
+              <Link href='/users'>
+                <a className='nav-item nav-link'>Users</a>
+              </Link>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
   </>
 );

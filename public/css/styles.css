@@ -1,0 +1,26 @@
+.contact {
+  color: green;
+}
+
+header {
+  background: #333333;
+}
+
+header .navbar-brand {
+  color: #dc3545 !important;
+  font-weight: 900;
+}
+
+header .navbar-nav .nav-item {
+  color: white !important;
+}
+
+.card_layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.bio_link:hover {
+  text-decoration: none;
+}
