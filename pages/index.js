@@ -60,7 +60,11 @@ class Home extends Component {
               <li className='list-group-item'>{user.phone}</li>
               <li className='list-group-item'>{user.website}</li>
               <li className='list-group-item list-group-item-action'>
-                <Link href={`/users/profile?userId=${user.id}`}>
+                {/** with as={path} working as parameter */}
+                <Link
+                  as={`/users/profile/${user.id}`}
+                  href={`/users/profile?userId=${user.id}`}
+                >
                   <a className='bio_link text-uppercase'>
                     {user.username} detail
                   </a>
