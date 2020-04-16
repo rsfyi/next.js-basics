@@ -11,3 +11,13 @@ Getting started with Next.js
 `Note - If you create any directory inside pages folder - you will get route added to that folder`
 
 git rm -r --cached .next - remove cached file from git
+
+Supports
+
+1. inline react style - style={{color: 'red'}}
+2. styled-jsx
+   ```
+      <style jsx``></style>
+   ```
+3. Adding external styled sheet file using Head component from next.js
+4. Add public folder and add css file
